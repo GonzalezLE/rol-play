@@ -1,0 +1,39 @@
+[
+  {
+    "id": 1,
+    "nivel": 1,
+    "texto": "Choca los 5 con [Pareja] y dile un cumplido sobre su trabajo.",
+    "conTiempo": false
+  },
+  {
+    "id": 2,
+    "nivel": 1,
+    "texto": "Hazle un café o sírvele un vaso de agua a [Pareja].",
+    "conTiempo": false
+  },
+  {
+    "id": 3,
+    "nivel": 2,
+    "texto": "Mantén contacto visual con [Pareja] sin reírte durante 30 segundos.",
+    "conTiempo": true,
+    "segundos": 30
+  },
+  {
+    "id": 4,
+    "nivel": 2,
+    "texto": "Comodín de la Verdad: ¿Cuál es el proyecto de software que más te ha costado terminar?",
+    "conTiempo": false
+  },
+  {
+    "id": 5,
+    "nivel": 3,
+    "texto": "Reto de resistencia: Tienes que hacer 10 lagartijas frente a [Pareja].",
+    "conTiempo": false
+  },
+  {
+    "id": 6,
+    "nivel": 3,
+    "texto": "Invita a [Pareja] a comer hoy. Tú pagas.",
+    "conTiempo": false
+  }
+]
