@@ -1,0 +1,26 @@
+{
+  "acciones_hombre": [
+    "Dar palmadita de compa en",
+    "Chocar los 5 cerca de",
+    "Picar con el dedo en",
+    "Hacer un mini masaje en"
+  ],
+  "acciones_mujer": [
+    "Hacer piojito en",
+    "Dar un toque suave en",
+    "Saludar tocando",
+    "Rascar suavemente en"
+  ],
+  "zonas_hombre": [
+    "la espalda alta",
+    "el hombro derecho",
+    "el brazo",
+    "la cabeza"
+  ],
+  "zonas_mujer": [
+    "la mano",
+    "el antebrazo",
+    "el codo",
+    "el hombro izquierdo"
+  ]
+}

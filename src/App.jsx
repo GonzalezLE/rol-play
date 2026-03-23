@@ -1,38 +1,28 @@
 import { useState } from 'react';
-import WelcomeScreen from './components/WelcomeScreen';
-import GameScreen from './components/GameScreen';
+import CatalogScreen from './components/CatalogScreen';
+import RetosPareja from './components/juegos/RetosPareja';
+import RuletaJuego from './components/juegos/RuletaJuego'; // <-- Agrega este import
+import ContactoFisico from './components/juegos/ContactoFisico';
+import JuegoObjetos from './components/juegos/JuegoObjetos';
+import DadosJuego from "./components/juegos/DadosJuego";
 
 function App() {
-  const [gameState, setGameState] = useState({
-    isActive: false,
-    jugador1: '',
-    jugador2: ''
-  });
-
-  const handleStartGame = (nombre1, nombre2) => {
-    setGameState({
-      isActive: true,
-      jugador1: nombre1,
-      jugador2: nombre2
-    });
-  };
-
-  const handleEndGame = () => {
-    // Esto nos servirá más adelante para cuando alguien presione "Me rindo"
-    setGameState({ isActive: false, jugador1: '', jugador2: '' });
-  };
+  const [juegoActivo, setJuegoActivo] = useState(null);
 
   return (
     <div className="min-h-screen bg-neutral-950 text-white font-sans selection:bg-rose-500/30">
-      {!gameState.isActive ? (
-        <WelcomeScreen onStartGame={handleStartGame} />
-      ) : (
-        <GameScreen 
-          jugador1={gameState.jugador1} 
-          jugador2={gameState.jugador2} 
-          onEndGame={handleEndGame}
-        />
-      )}
+      
+      {juegoActivo === null && <CatalogScreen onSelectGame={(id) => setJuegoActivo(id)} />}
+      
+      {juegoActivo === 'retos' && <RetosPareja onBackToCatalog={() => setJuegoActivo(null)} />}
+      
+      {/* <-- Descomentamos la línea de la ruleta */}
+      {juegoActivo === 'ruleta' && <RuletaJuego onBackToCatalog={() => setJuegoActivo(null)} />}
+      
+      {juegoActivo === 'contacto' && <ContactoFisico onBackToCatalog={() => setJuegoActivo(null)} />}
+
+      {juegoActivo === 'objetos' && <JuegoObjetos onBackToCatalog={() => setJuegoActivo(null)} />}
+        {juegoActivo === 'dados' && <DadosJuego onBackToCatalog={() => setJuegoActivo(null)} />}
     </div>
   );
 }

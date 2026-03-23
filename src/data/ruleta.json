@@ -1,0 +1,22 @@
+[
+  { "id": 1, "tipo": "Comodín", "nivel": 1, "texto": "Pase libre: Tómate un café de 10 min" },
+  { "id": 2, "tipo": "Comodín", "nivel": 1, "texto": "Elige la música de la oficina esta hora" },
+  { "id": 3, "tipo": "Comodín", "nivel": 1, "texto": "Saltas tu turno sin hacer nada" },
+  { "id": 4, "tipo": "Pregunta", "nivel": 1, "texto": "¿Qué querías ser de grande?" },
+  { "id": 5, "tipo": "Pregunta", "nivel": 1, "texto": "¿Cuál es tu película favorita?" },
+  { "id": 6, "tipo": "Reto", "nivel": 1, "texto": "Choca los 5 con tu compañero" },
+
+  { "id": 7, "tipo": "Comodín", "nivel": 2, "texto": "Inmunidad al próximo reto que te toque" },
+  { "id": 8, "tipo": "Pregunta", "nivel": 2, "texto": "¿Cuál es tu talento más inútil?" },
+  { "id": 9, "tipo": "Reto", "nivel": 2, "texto": "10 sentadillas aquí mismo" },
+  { "id": 10, "tipo": "Reto", "nivel": 2, "texto": "No uses el mouse por 5 minutos" },
+  { "id": 11, "tipo": "Reto", "nivel": 2, "texto": "Escribe un mensaje elogiando a alguien" },
+  { "id": 12, "tipo": "Pregunta", "nivel": 2, "texto": "¿Cuál ha sido tu peor oso en el trabajo?" },
+
+  { "id": 13, "tipo": "Reto", "nivel": 3, "texto": "Paga la comida de hoy" },
+  { "id": 14, "tipo": "Reto", "nivel": 3, "texto": "Haz 20 lagartijas sin parar" },
+  { "id": 15, "tipo": "Reto", "nivel": 3, "texto": "Canta el coro de una canción en voz alta" },
+  { "id": 16, "tipo": "Reto", "nivel": 3, "texto": "Invita los cafés mañana" },
+  { "id": 17, "tipo": "Reto", "nivel": 3, "texto": "Trabaja de pie por los próximos 30 minutos" },
+  { "id": 18, "tipo": "Reto", "nivel": 3, "texto": "Limpia el escritorio de tu compañero" }
+]
