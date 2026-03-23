@@ -1,0 +1,28 @@
+{
+  "tramas": [
+    {
+      "id": 1,
+      "titulo": "La Entrevista Privada",
+      "escenario": "Una oficina elegante a altas horas de la noche. Solo quedan ustedes dos.",
+      "rol_hombre": "El jefe exigente que acaba de descubrir un 'error' en el informe de ella.",
+      "rol_mujer": "La asistente ambiciosa que está dispuesta a todo por un ascenso.",
+      "objetivo": "Convencer al otro de que mereces lo que pides usando solo el lenguaje corporal."
+    },
+    {
+      "id": 2,
+      "titulo": "Extraños en el Bar",
+      "escenario": "Un bar oscuro de un hotel de lujo. No se conocen de nada.",
+      "rol_hombre": "Un viajero misterioso que acaba de llegar a la ciudad.",
+      "rol_mujer": "Una mujer elegante que busca compañía para olvidar un mal día.",
+      "objetivo": "Seducir al otro en menos de 5 minutos sin revelar sus verdaderos nombres."
+    },
+    {
+      "id": 3,
+      "titulo": "El Masaje Prohibido",
+      "escenario": "Un spa de lujo después del cierre. Velas y música suave.",
+      "rol_hombre": "El masajista experto que conoce todos los puntos de tensión.",
+      "rol_mujer": "La cliente VIP que necesita relajación total.",
+      "objetivo": "Lograr que el otro pierda el control de su personaje."
+    }
+  ]
+}
